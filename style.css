@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #0b87ff;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.card-body {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+}
+.card-body h1 {
+  margin-bottom: 15px;
+  font-size: 70px;
+}
+.card-btn button {
+  border-radius: 5px;
+  color: #262626;
+  padding: 7px 24px;
+  border: 0;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+button#increment {
+  background: #0b87ff;
+}
+button#increment:hover {
+  background: #009432 ;
+  color: #fff;
+}
+button#reset {
+  background: #0b87ff;
+}
+button#reset:hover {
+  background:  #f79f1f;
+  color: #fff;
+}
+button#decrement {
+  background: #0b87ff;
+}
+button#decrement:hover {
+  background: #ea2027;
+  color: #fff;
+}
+
+@keyframes up {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: -20px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+@keyframes down {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 20px;
+  }
+  100% {
+    top: 0px;
+  }
+}
